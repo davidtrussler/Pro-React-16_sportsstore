@@ -2,58 +2,17 @@
 
 This is based on Chapters 5 - 8 of Pro React 16 by Adam Freeman.
 
-## Prerequisites
+## Prerequisites:
 
 - [Node.js](https://nodejs.org/) - version 10.14.1
 - [Git](http://git-scm.com/)
 
 ## To clone and set up the project locally:
 
-- `git clone https://github.com/davidtrussler/Pro-React-16_todo.git`
-- `cd Pro-React-16_todo`
+- `git clone https://github.com/davidtrussler/Pro-React-16_sportsstore.git`
+- `cd Pro-React-16_sportsstore`
 - `npm install`
 - `npm start`
-
-## NPM Packages installed for this project
-
-There are a number of extra packages installed, many of which I would not wanna use in any project of mine. These are:
-
-- bootstrap
-  - provides CSS
-- fontawesome
-  - provides icons
-- redux
-  - provides a data store
-- redux-react
-  - integrates the data store into the React app (see Chapters 19 & 20)
-- react-router-dom
-  - provides URL routing
-- axios
-  - makes HTTP requests
-- graphql
-- apollo-boost
-- react-apollo
-  - required for  GraphQL service
-- json-server
-  - provides a RESTful web service
-- jsonwebtoken
-  - for authentication
-- express
-  - to host the back-end servers
-- express-graphql
-  - to create a GraphQL server
-- cors
-  - to enable CORS requests
-- faker
-  - generates fake data for testing
-- chokidar
-  - to monitor files for changes
-- npm-run-all
-  - to run multiple npm scripts in a single command
-- connect-history-api-fallback
-  - to respond to HTTP requests with index.html
-
-==
 
 `npm start` runs the app in the development mode.
 The page will reload if you make edits.
