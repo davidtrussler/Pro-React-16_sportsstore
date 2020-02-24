@@ -2,7 +2,7 @@
 
 This is based on Chapters 5 - 8 of Pro React 16 by Adam Freeman.
 
-## Prerequisites:
+## Prerequisites
 
 - [Node.js](https://nodejs.org/) - version 10.14.1
 - [Git](http://git-scm.com/)
@@ -13,6 +13,29 @@ This is based on Chapters 5 - 8 of Pro React 16 by Adam Freeman.
 - `cd Pro-React-16_todo`
 - `npm install`
 - `npm start`
+
+## NPM Packages installed for this project
+
+There are a number of extra packages installed, many of which I would not wanna use in any project of mine. These are:
+
+- bootstrap
+  - provides CSS
+- fontawesome
+  - provides icons
+- redux
+  - provides a data store
+- redux-react
+  - integrates the data store into the React app (see Chapters 19 & 20)
+- react-router-dom
+  - provides URL routing
+- axios
+  - makes HTTP requests
+- graphql
+- apollo-boost
+- react-apollo
+  - required for  GraphQL service
+
+==
 
 `npm start` runs the app in the development mode.
 The page will reload if you make edits.
