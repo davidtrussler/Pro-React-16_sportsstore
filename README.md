@@ -9,8 +9,8 @@ This is based on Chapters 5 - 8 of Pro React 16 by Adam Freeman.
 
 ## To clone and set up the project locally:
 
-- `git clone https://github.com/davidtrussler/Pro-React-16_todo.git`
-- `cd Pro-React-16_todo`
+- `git clone https://github.com/davidtrussler/Pro-React-16_sportsstore.git`
+- `cd Pro-React-16_sportsstore`
 - `npm install`
 - `npm start`
 
