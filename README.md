@@ -34,6 +34,24 @@ There are a number of extra packages installed, many of which I would not wanna 
 - apollo-boost
 - react-apollo
   - required for  GraphQL service
+- json-server
+  - provides a RESTful web service
+- jsonwebtoken
+  - for authentication
+- express
+  - to host the back-end servers
+- express-graphql
+  - to create a GraphQL server
+- cors
+  - to enable CORS requests
+- faker
+  - generates fake data for testing
+- chokidar
+  - to monitor files for changes
+- npm-run-all
+  - to run multiple npm scripts in a single command
+- connect-history-api-fallback
+  - to respond to HTTP requests with index.html
 
 ==
 
