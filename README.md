@@ -2,29 +2,25 @@
 
 This is based on Chapters 5 - 8 of Pro React 16 by Adam Freeman.
 
-## Prerequisites:
+## Prerequisites
 
 - [Node.js](https://nodejs.org/) - version 10.14.1
 - [Git](http://git-scm.com/)
 
-## To clone and set up the project locally:
+## To clone and set up the project locally
 
 - `git clone https://github.com/davidtrussler/Pro-React-16_sportsstore.git`
 - `cd Pro-React-16_sportsstore`
 - `npm install`
 - `npm start`
 
-`npm start` runs the app in the development mode.
-The page will reload if you make edits.
-You will also see any lint errors in the console.
+`npm start` runs the app in the development mode. The page will reload if you make edits.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 `npm test` launches the test runner in the interactive watch mode.
 
 ====
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
