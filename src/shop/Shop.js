@@ -4,8 +4,7 @@ import {ProductList} from './ProductList';
 
 export class Shop extends Component {
 	render() {
-		return 
-			<div className="container-fluid">
+		return <div className="container-fluid">
 				<div className="row">
 					<div className="col bg-dark text-white">
 						<div className="navbar-brand">SPORTS STORE</div>
