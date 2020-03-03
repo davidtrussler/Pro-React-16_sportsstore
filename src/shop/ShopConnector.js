@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Switch, Route, Redirect} from 'react-router-dom'; 
 import {connect} from 'react-redux'; 
 import {loadData} from '../data/ActionCreators'; 
-import {DataTypes} from '../DataTypes'; 
+import {DataTypes} from '../data/Types'; 
 import {Shop} from './Shop'; 
 
 const mapSateToProps = (dataStore) => ({
@@ -16,7 +16,7 @@ const mapDispatchToProps = {
 const filterProducts = (products = [], category) => 
 	(!category || category === 'All') ? products : products.filter(p => p.category.toLowerCase() === category.toLowerCase()); 
 
-export const ShopConeector = connect(mapStateToPrpos, mapDispatchToProps) (
+export const ShopConnector = connect(mapSateToProps, mapDispatchToProps) (
 	class extends Component {
 		render() {
 			return <Switch>
